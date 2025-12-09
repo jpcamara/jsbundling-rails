@@ -24,7 +24,7 @@ module Jsbundling
 
     def install_command
       case tool
-      when :bun then "bun install"
+      when :bun then "bun run install"
       when :yarn then "yarn install"
       when :pnpm then "pnpm install"
       when :npm then "npm install"
